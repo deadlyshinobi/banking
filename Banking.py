@@ -6,6 +6,7 @@ try:
    sql_select="SELECT * from account_data"
 
    def createAccount():
+     # Generating a account ID automatically via auto_gen()
       account_no=str(auto_gen())
       name=str(input("Enter your name : "))
       email=str(input("Enter your email : "))
